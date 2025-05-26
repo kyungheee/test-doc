@@ -12,13 +12,17 @@ weight: 1
         subtitle="Authors : Taehun Cha, Donghun Lee" >}}
 {{< /cards >}}
 
-Paper : [Evaluating Extrapolation Ability of Large Language Model in Chemical Domain](https://aiml-k.github.io/publication/2024acl-cha-lee/)
-Authors : [Taehun Cha](https://aiml-k.github.io/author/taehun-cha/), [Donghun Lee](https://aiml-k.github.io/author/donghun-lee/)
 
 ## Main Question
 
+
+
 ## Approach 
 
+
+
 ## Result
+
+
 
 ## Why it matters?
