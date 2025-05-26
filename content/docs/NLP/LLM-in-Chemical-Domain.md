@@ -52,9 +52,9 @@ A Markdown callout is useful for displaying notices, hints, or definitions to yo
   <thead>
     <tr>
       <th rowspan="2"></th>
-      <th colspan="3">Resin B₁</th>
-      <th colspan="3">Resin B₂</th>
-      <th colspan="3">Resin B₃</th>
+      <th colspan="3">Resin $B₁$</th>
+      <th colspan="3">Resin $B₂$</th>
+      <th colspan="3">Resin $B₃$</th>
     </tr>
     <tr>
       <th>$T_g$</th>
@@ -101,6 +101,7 @@ A Markdown callout is useful for displaying notices, hints, or definitions to yo
     </tr>
   </tbody>
 </table>
+
 
 
 
