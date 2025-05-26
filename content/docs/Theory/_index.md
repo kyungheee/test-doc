@@ -1,8 +1,8 @@
 ---
-title: Guide
-# weight: 
+title: Theory
+weight: 4
 sidebar:
-  open: true
+  open: false
 ---
 
 {{< cards >}}

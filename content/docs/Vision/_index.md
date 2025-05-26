@@ -1,8 +1,8 @@
 ---
-title: Guide
-# weight: 
+title: Vision
+weight: 2
 sidebar:
-  open: true
+  open: false
 ---
 
 {{< cards >}}

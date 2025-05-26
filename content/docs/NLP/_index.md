@@ -1,8 +1,8 @@
 ---
-title: Guide
-# weight: 
+title: NLP
+weight: 1
 sidebar:
-  open: true
+  open: false
 ---
 
 {{< cards >}}

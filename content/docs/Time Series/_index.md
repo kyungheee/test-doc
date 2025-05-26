@@ -1,8 +1,8 @@
 ---
-title: Guide
-# weight: 
+title: Time Series
+weight: 3
 sidebar:
-  open: true
+  open: false
 ---
 
 {{< cards >}}

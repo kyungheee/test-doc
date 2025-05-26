@@ -1,16 +1,19 @@
 ---
-linkTitle: Documentation
+linkTitle: Research
 title: Introduction
 ---
 
-👋 Welcome to the demo of the Hugo Blox Documentation template!
+👋 Welcome to the AIML@K!
 
 <!--more-->
 
-This site is a demo of the Hugo Blox Documentation theme. For the full documentation on how to use this template, refer to the [Hugo Blox Documentation](https://docs.hugoblox.com/).
+여기서 우리가 한 연구들에 대해 간략하게 알 수 있다.
 
-## Next
+## Contents
 
 {{< cards >}}
-  {{< card url="getting-started" title="Get Started" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
+  {{< card url="NLP" title="Get Started" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
+  {{< card url="Vision" title="Get Started" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
+  {{< card url="Time Series" title="Get Started" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
+  {{< card url="Theory" title="Get Started" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
 {{< /cards >}}
