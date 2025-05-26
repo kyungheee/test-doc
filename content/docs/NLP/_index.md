@@ -3,6 +3,7 @@ title: NLP
 weight: 1
 sidebar:
   open: false
+toc: false
 ---
 
 We introduce our research in Natural Language Processing.
@@ -39,7 +40,7 @@ We have focused our research on the following problems and questions.
 Let's customize your new site:
 
 {{< cards >}}
-  {{< card url="project-structure" title="Project Structure" icon="document-duplicate" >}}
+  {{< card url="LLM-in-Chemical-Domain" title="LLM in Chemical Domain" icon="beaker" >}}
   {{< card url="configuration" title="Configuration" icon="adjustments-vertical" >}}
   {{< card url="project-structure" title="Project Structure" icon="document-duplicate" >}}
   {{< card url="configuration" title="Configuration" icon="adjustments-vertical" >}}

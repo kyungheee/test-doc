@@ -1,6 +1,7 @@
 ---
 linkTitle: Research
 title: Introduction
+toc: false
 ---
 
 👋 Welcome to the AIML@K!
