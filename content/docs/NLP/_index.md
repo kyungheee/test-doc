@@ -12,32 +12,7 @@ We have focused our research on the following problems and questions.
 
 ## Questions
 
-{{% steps %}}
-
-### Initialize a new site
-
-[Click to copy the template on GitHub](https://github.com/new?template_name=theme-documentation&template_owner=HugoBlox)
-
-
-
-### Configure your new site
-
-[Configure your site name, description, and menu.](https://docs.hugoblox.com/tutorial/blog/)
-
-### Add your content
-
-[Edit the homepage and add your documentation pages.](https://docs.hugoblox.com/tutorial/blog/)
-
-### Publish your site
-
-[Easily publish your site for free with GitHub Pages](https://docs.hugoblox.com/tutorial/blog/)
-
-{{% /steps %}}
-
-
-## Papers
-
-Let's customize your new site:
+### Q1. 이런 문제는 어떻게 해결할 수 있을까?
 
 {{< cards >}}
   {{< card url="LLM-in-Chemical-Domain" title="LLM in Chemical Domain" icon="beaker" >}}
@@ -47,3 +22,16 @@ Let's customize your new site:
   {{< card url="project-structure" title="Project Structure" icon="document-duplicate" >}}
   {{< card url="configuration" title="Configuration" icon="adjustments-vertical" >}}
 {{< /cards >}}
+
+<br>
+
+
+## Paper List
+{{< cards >}}
+  {{< card 
+        url="https://aiml-k.github.io/publication/2024acl-cha-lee/" 
+        title="Evaluating Extrapolation Ability of Large Language Model in Chemical Domain" 
+        subtitle="Authors : Taehun Cha, Donghun Lee" >}}
+{{< /cards >}}
+
+
