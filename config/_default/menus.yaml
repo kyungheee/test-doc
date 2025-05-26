@@ -6,7 +6,7 @@ main:
   #   url: /
   #   weight: 10
   - name: Research
-    url: docs/
+    url: research/
     weight: 20
   # - name: Blog
   #   url: blog/
