@@ -1,6 +1,6 @@
 ---
 linkTitle: Research
-title: Introduction
+title: Inside AIML@K Research
 toc: false
 ---
 
@@ -10,7 +10,7 @@ toc: false
 
 여기서 우리가 한 연구들에 대해 간략하게 알 수 있다.
 
-## Contents
+## Category
 
 {{< cards >}}
   {{< card url="NLP" title="NLP" icon="document-text" subtitle="Create your docs in just 5 minutes!" >}}
