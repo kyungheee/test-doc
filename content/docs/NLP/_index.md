@@ -12,15 +12,16 @@ We have focused our research on the following problems and questions.
 
 ## Questions
 
-### Q1. 이런 문제는 어떻게 해결할 수 있을까?
+### Q1. 뭐시기뭐시기
 
 {{< cards >}}
   {{< card url="LLM-in-Chemical-Domain" title="LLM in Chemical Domain" icon="beaker" >}}
-  {{< card url="configuration" title="Configuration" icon="adjustments-vertical" >}}
-  {{< card url="project-structure" title="Project Structure" icon="document-duplicate" >}}
-  {{< card url="configuration" title="Configuration" icon="adjustments-vertical" >}}
-  {{< card url="project-structure" title="Project Structure" icon="document-duplicate" >}}
-  {{< card url="configuration" title="Configuration" icon="adjustments-vertical" >}}
+{{< /cards >}}
+
+### Q2. 뭐시기뭐시기
+
+{{< cards >}}
+  {{< card url="LLM-in-Chemical-Domain" title="LLM in Chemical Domain" icon="beaker" >}}
 {{< /cards >}}
 
 <br>
@@ -34,4 +35,16 @@ We have focused our research on the following problems and questions.
         subtitle="Authors : Taehun Cha, Donghun Lee" >}}
 {{< /cards >}}
 
+{{< cards >}}
+  {{< card 
+        url="https://aiml-k.github.io/publication/2024emnlp-cha-lee/" 
+        title="Pre-trained Language Models Return Distinguishable Probability Distributions to Unfaithfully Hallucinated Texts" 
+        subtitle="Authors : Taehun Cha, Donghun Lee" >}}
+{{< /cards >}}
 
+{{< cards >}}
+  {{< card 
+        url="https://aiml-k.github.io/publication/2024kcc-bae-lee/" 
+        title="Exploring Hallucination Types in Question-Answering Generation and Limitation of Text Evaluation Metrics" 
+        subtitle="Authors : Suhyun Bae, Donghun Lee" >}}
+{{< /cards >}}

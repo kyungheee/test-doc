@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: light
-  color: blue
+  color: red
 
 # SEO
 marketing:
@@ -41,7 +41,7 @@ header:
       filename: "logo.svg"
     button:
       enable: true
-      text: "Get Started"
+      text: "Hello!"
       url: "https://hugoblox.com/templates/details/docs/"
     show_search: true
     show_theme_chooser: true
@@ -82,3 +82,6 @@ features:
       repo_id: ''
       category: ''
       category_id: ''
+
+
+math: true
