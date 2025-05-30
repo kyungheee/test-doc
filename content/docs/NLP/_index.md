@@ -12,13 +12,13 @@ We have focused our research on the following problems and questions.
 
 ## Questions
 
-### Q1. 뭐시기뭐시기
+### Q1. Do LLMs perform well in the chemical domain as well?
 
 {{< cards >}}
   {{< card url="LLM-in-Chemical-Domain" title="LLM in Chemical Domain" icon="beaker" >}}
 {{< /cards >}}
 
-### Q2. 뭐시기뭐시기
+### Q2. 
 
 {{< cards >}}
   {{< card url="LLM-in-Chemical-Domain" title="LLM in Chemical Domain" icon="beaker" >}}
