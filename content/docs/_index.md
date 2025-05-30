@@ -8,7 +8,7 @@ toc: false
 
 <!--more-->
 
-여기서 우리가 한 연구들에 대해 간략하게 알 수 있다.
+Here, you can explore a concise overview of the **research & projects** conducted by our lab
 
 ## Category
 
