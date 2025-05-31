@@ -17,7 +17,7 @@ math: true
 ## Main Question
 
 {{% callout note %}}
-**Does LLM have superior extraplation ability for unseen tasks in the chemical domain?**
+**Does an LLM have superior extrapolation ability for unseen tasks in the chemical domain?**
 {{% /callout %}}
 
 
