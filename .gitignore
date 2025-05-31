@@ -5,7 +5,3 @@
 resources/
 public/
 jsconfig.json
-
-# guide
-content/docs/guide/
-content/docs/reference/
