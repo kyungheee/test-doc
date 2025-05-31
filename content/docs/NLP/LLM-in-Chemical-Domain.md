@@ -28,13 +28,13 @@ math: true
 ### Data Collection
 
 
-We collect 917 **Epoxy Resin Data points**  with lab experiments measuring [glass transition temperature](https://www.sciencedirect.com/topics/materials-science/glass-transition-temperature) ($T_g$), [tan delta peak](https://www.sciencedirect.com/topics/engineering/tan-delta-peak) ($\delta$), and [cross-link density](https://www.sciencedirect.com/topics/chemistry/crosslink-density) ($v_c$)
+We collect **917 Epoxy Resin Data points**  with lab experiments measuring [glass transition temperature](https://www.sciencedirect.com/topics/materials-science/glass-transition-temperature) ($T_g$), [tan delta peak](https://www.sciencedirect.com/topics/engineering/tan-delta-peak) ($\delta$), and [cross-link density](https://www.sciencedirect.com/topics/chemistry/crosslink-density) ($v_c$)
 
 
 
 ### Experimental Setup
 
-To evaluate the extrapolation ability of LLM([*gpt-4-turbo*](https://arxiv.org/abs/2303.08774)), we construct the following four regression tasks.
+To evaluate the **[extrapolation](https://en.wikipedia.org/wiki/Extrapolation) ability** of LLM([*gpt-4-turbo*](https://arxiv.org/abs/2303.08774)), we construct the following four regression tasks.
 
 1. Linear Regression (LR)
 2. Ridge Regression (RR)
@@ -45,21 +45,20 @@ Our goal is to predict three properties of the test data given training data fro
 
 ### Test (1) Additional Epoxy Resin $B_i$
 
-Train data: Resin $A$, Curing agent, Catalyst   
-Test data: Resin $A$, Curing agent, Catalyst, Resin $B_i$
+**Train data**: Resin $A$, Curing agent, Catalyst   
+**Test data**: Resin $A$, Curing agent, Catalyst, Resin $B_i$
 
-  - Resin $B_1$: CTBN(Carboyl-Terminated Butadiene Acrylonitrile) modified epoxy resin
-  - Resin $B_2$: MBS type core shell rubber (CSR) modified epoxy resin
-  - Resin $B_3$: Dimer acid modified epoxy resin
-
+  - Resin $B_1$: [CTBN(Carboyl-Terminated Butadiene Acrylonitrile) modified epoxy resin](https://onlinelibrary.wiley.com/doi/abs/10.1002/app.25412)
+  - Resin $B_2$: MBS type [CSR(core shell rubber) modified epoxy resin](https://patents.google.com/patent/KR20160099609A/en)
+  - Resin $B_3$: [Dimer acid](https://en.wikipedia.org/wiki/Dimer_acid) modified epoxy resin
 
 
 ### Test (2) Replaced Epoxy Resin $B_2$ Replacing the Original Resin $A$
 
-Train data: Resin $A$, Curing agent, Catalyst   
-Test data: Resin $B_2$, Curing agent, Catalyst
+**Train data**: Resin $A$, Curing agent, Catalyst   
+*Test data*: Resin $B_2$, Curing agent, Catalyst
 
-### Evaluate Extrapolation Ability on $v_c$, $\delta$, and $T_g$
+### Evaluate Extrapolation Ability on $T_g$, $\delta$, and $v_c$
 
 You can check the results in the Result section below
 
@@ -122,7 +121,44 @@ You can check the results in the Result section below
   </tbody>
 </table>
 
+**Table 1: MAE results for Test (1), averaged over 5 trials.**   
 
+Our LLM model outperformed the baseline regression model on $v_c$, but failed to do so on $\delta$. For $T_g$, the performance depends on $B_i$. Additionally, our model shows lower volatility (5.62 to 7.32) compared to the baseline (4.20 to 9.79).
+
+
+**An example answer from LLM for adding resin $B_1$**
+
+<blockquote style="border-left: 4px solid #ccc; padding: 10px 20px; margin: 20px 0; background-color: #f9f9f9; font-style: italic;">
+  (...) CTBN is a rubbery polymer that is typically used to improve the toughness of epoxy resins.
+  The incorporation of CTBN into an epoxy resin generally <strong>results in a decrease in</strong> $T_g$
+  because the CTBN phase is softer and more flexible compared to the rigid epoxy network formed by DGEBA-based resins.
+  <br><br>
+  (...) The SMILES of Resin $B_1$ indicates the presence of butadiene and acrylonitrile groups,
+  which contribute to the elastomeric properties of the resin. This further supports the expectation of a
+  <strong>lower $T_g$</strong> due to increased flexibility and reduced crosslink density. (...)
+</blockquote>
+
+
+<table border="1" style="text-align: center; border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th></th>
+      <th><i>T<sub>g</sub></i></th>
+      <th><i>δ</i></th>
+      <th><i>v<sub>c</sub></i></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>LR</td><td>12.87</td><td>0.1606</td><td>0.001094</td></tr>
+    <tr><td>RR</td><td>12.78</td><td>0.1573</td><td>0.001097</td></tr>
+    <tr><td><b>RF</b></td><td><b>12.62</b></td><td><b>0.1107</b></td><td>0.000718</td></tr>
+    <tr><td>XGB</td><td>13.35</td><td>0.1199</td><td>0.000779</td></tr>
+    <tr><td><b>Ours</b></td><td>21.17</td><td>0.1116</td><td><b>0.000467</b></td></tr>
+    <tr><td><b>Ours (1 shot)</td><td>12.14</td><td>0.1080</td><td>0.000389</b></td></tr>
+  </tbody>
+</table>
+
+**Table 2: MAE results for Test (2), averaged over 5 trials.**   
 
 
 ## Why it matters?
