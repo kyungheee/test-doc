@@ -17,7 +17,7 @@ math: true
 ## Main Question
 
 {{% callout note %}}
-**Does an LLM have superior extrapolation ability for unseen tasks in the chemical domain?**
+**Does an LLM have superior [extrapolation](https://en.wikipedia.org/wiki/Extrapolation) ability for unseen tasks in the chemical domain?**
 {{% /callout %}}
 
 
@@ -34,7 +34,7 @@ We collect **917 Epoxy Resin Data points**  with lab experiments measuring [glas
 
 ### Experimental Setup
 
-To evaluate the **[extrapolation](https://en.wikipedia.org/wiki/Extrapolation) ability** of LLM([*gpt-4-turbo*](https://arxiv.org/abs/2303.08774)), we construct the following four regression tasks.
+To evaluate the **extrapolation ability of LLM([*gpt-4-turbo*](https://arxiv.org/abs/2303.08774))**, we construct the following four regression tasks.
 
 1. Linear Regression (LR)
 2. Ridge Regression (RR)
@@ -126,7 +126,7 @@ You can check the results in the Result section below
 Our LLM model outperformed the baseline regression model on $v_c$, but failed to do so on $\delta$. For $T_g$, the performance depends on $B_i$. Additionally, our model shows lower volatility (5.62 to 7.32) compared to the baseline (4.20 to 9.79).
 
 
-**An example answer from LLM for adding resin $B_1$**
+**_An example answer from LLM for adding resin $B_1$_**
 
 <blockquote style="border-left: 4px solid #ccc; padding: 10px 20px; margin: 20px 0; background-color: #f9f9f9; font-style: italic;">
   (...) CTBN is a rubbery polymer that is typically used to improve the toughness of epoxy resins.
@@ -143,9 +143,9 @@ Our LLM model outperformed the baseline regression model on $v_c$, but failed to
   <thead>
     <tr>
       <th></th>
-      <th><i>T<sub>g</sub></i></th>
-      <th><i>δ</i></th>
-      <th><i>v<sub>c</sub></i></th>
+      <th><i>$T_g$</sub></i></th>
+      <th><i>$\delta$</i></th>
+      <th><i>$v_c$</sub></i></th>
     </tr>
   </thead>
   <tbody>
@@ -159,6 +159,10 @@ Our LLM model outperformed the baseline regression model on $v_c$, but failed to
 </table>
 
 **Table 2: MAE results for Test (2), averaged over 5 trials.**   
+
+
+
+
 
 
 ## Why it matters?
