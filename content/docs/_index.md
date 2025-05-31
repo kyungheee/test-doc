@@ -8,7 +8,7 @@ toc: false
 
 <!--more-->
 
-Here, you can explore a concise overview of the **research & projects** conducted by our lab
+Here, you can explore a concise overview of the **research projects** conducted by our lab
 
 ## Category
 

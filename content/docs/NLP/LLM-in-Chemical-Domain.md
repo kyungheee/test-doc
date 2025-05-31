@@ -17,7 +17,7 @@ math: true
 ## Main Question
 
 {{% callout note %}}
-A Markdown callout is useful for displaying notices, hints, or definitions to your readers.
+**Does LLM have superior extraplation ability for unseen tasks in the chemical domain?**
 {{% /callout %}}
 
 
@@ -25,23 +25,43 @@ A Markdown callout is useful for displaying notices, hints, or definitions to yo
 
 {{% steps %}}
 
-### Initialize a new site
-
-[Click to copy the template on GitHub](https://github.com/new?template_name=theme-documentation&template_owner=HugoBlox)
+### Data Collection
 
 
+We collect 917 **Epoxy Resin Data points**  with lab experiments measuring [glass transition temperature](https://www.sciencedirect.com/topics/materials-science/glass-transition-temperature) ($T_g$), [tan delta peak](https://www.sciencedirect.com/topics/engineering/tan-delta-peak) ($\delta$), and [cross-link density](https://www.sciencedirect.com/topics/chemistry/crosslink-density) ($v_c$)
 
-### Configure your new site
 
-[Configure your site name, description, and menu.](https://docs.hugoblox.com/tutorial/blog/)
 
-### Add your content
+### Experimental Setup
 
-[Edit the homepage and add your documentation pages.](https://docs.hugoblox.com/tutorial/blog/)
+To evaluate the extrapolation ability of LLM([*gpt-4-turbo*](https://arxiv.org/abs/2303.08774)), we construct the following four regression tasks.
 
-### Publish your site
+1. Linear Regression (LR)
+2. Ridge Regression (RR)
+3. Random Forest (RF)
+4. XGBoost (XGB)
 
-[Easily publish your site for free with GitHub Pages](https://docs.hugoblox.com/tutorial/blog/)
+Our goal is to predict three properties of the test data given training data from a different chemical domain.
+
+### Test (1) Additional Epoxy Resin $B_i$
+
+Train data: Resin $A$, Curing agent, Catalyst   
+Test data: Resin $A$, Curing agent, Catalyst, Resin $B_i$
+
+  - Resin $B_1$: CTBN(Carboyl-Terminated Butadiene Acrylonitrile) modified epoxy resin
+  - Resin $B_2$: MBS type core shell rubber (CSR) modified epoxy resin
+  - Resin $B_3$: Dimer acid modified epoxy resin
+
+
+
+### Test (2) Replaced Epoxy Resin $B_2$ Replacing the Original Resin $A$
+
+Train data: Resin $A$, Curing agent, Catalyst   
+Test data: Resin $B_2$, Curing agent, Catalyst
+
+### Evaluate Extrapolation Ability on $v_c$, $\delta$, and $T_g$
+
+You can check the results in the Result section below
 
 {{% /steps %}}
 
