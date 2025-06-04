@@ -6,6 +6,7 @@ sidebar:
 ---
 
 {{< cards >}}
-  {{< card url="project-structure" title="Project Structure" icon="document-duplicate" >}}
+  {{< card url="Predicting-Epoxy-Property" title="Predicting Epoxy Property" icon="arrow-right-circle" >}}
+
   {{< card url="configuration" title="Configuration" icon="adjustments-vertical" >}}
 {{< /cards >}}
