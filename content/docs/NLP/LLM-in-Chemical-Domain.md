@@ -48,15 +48,15 @@ Our goal is to predict three properties of the test data given training data fro
 **Train data**: Resin $A$, Curing agent, Catalyst   
 **Test data**: Resin $A$, Curing agent, Catalyst, Resin $B_i$
 
-  - Resin $B_1$: [CTBN(Carboyl-Terminated Butadiene Acrylonitrile) modified epoxy resin](https://onlinelibrary.wiley.com/doi/abs/10.1002/app.25412)
-  - Resin $B_2$: MBS type [CSR(core shell rubber) modified epoxy resin](https://patents.google.com/patent/KR20160099609A/en)
-  - Resin $B_3$: [Dimer acid](https://en.wikipedia.org/wiki/Dimer_acid) modified epoxy resin
+  - Resin $B_1$: CTBN(Carboyl-Terminated Butadiene Acrylonitrile) modified epoxy resin
+  - Resin $B_2$: MBS type CSR(core shell rubber) modified epoxy resin
+  - Resin $B_3$: Dimer acid modified epoxy resin
 
 
 ### Test (2) Replaced Epoxy Resin $B_2$ Replacing the Original Resin $A$
 
 **Train data**: Resin $A$, Curing agent, Catalyst   
-*Test data*: Resin $B_2$, Curing agent, Catalyst
+**Test data**: Resin $B_2$, Curing agent, Catalyst
 
 ### Evaluate Extrapolation Ability on $T_g$, $\delta$, and $v_c$
 
@@ -126,7 +126,7 @@ You can check the results in the Result section below
 Our LLM model outperformed the baseline regression model on $v_c$, but failed to do so on $\delta$. For $T_g$, the performance depends on $B_i$. Additionally, our model shows lower volatility (5.62 to 7.32) compared to the baseline (4.20 to 9.79).
 
 
-**_An example answer from LLM for adding resin $B_1$_**
+**An example answer from LLM for adding resin $B_1$**
 
 <blockquote style="border-left: 4px solid #ccc; padding: 10px 20px; margin: 20px 0; background-color: #f9f9f9; font-style: italic;">
   (...) CTBN is a rubbery polymer that is typically used to improve the toughness of epoxy resins.

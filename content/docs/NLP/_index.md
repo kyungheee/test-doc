@@ -12,17 +12,24 @@ We have focused our research on the following problems and questions.
 
 ## Questions
 
-### Q1. Do LLMs perform well in the chemical domain as well?
+### Q1. Does an LLM perform well in the chemical domain as well?
 
 {{< cards >}}
-  {{< card url="LLM-in-Chemical-Domain" title="LLM in Chemical Domain" icon="beaker" >}}
+  {{< card url="LLM-in-Chemical-Domain" title="LLM in Chemical Domain" icon="arrow-right-circle" >}}
 {{< /cards >}}
 
-### Q2. 
+### Q2. Can Conventional hallucination classification methods classify all types?
 
 {{< cards >}}
-  {{< card url="LLM-in-Chemical-Domain" title="LLM in Chemical Domain" icon="beaker" >}}
+  {{< card url="Exploring-Hallucination-Types" title="Exploring Hallucination Types" icon="arrow-right-circle" >}}
 {{< /cards >}}
+
+### Q3. 
+
+{{< cards >}}
+  {{< card url="" title="" icon="arrow-right-circle" >}}
+{{< /cards >}}
+
 
 <br>
 
