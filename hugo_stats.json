@@ -1,6 +1,8 @@
 {
   "htmlElements": {
     "tags": [
+      "<",
+      "</th",
       "a",
       "article",
       "aside",
@@ -15,6 +17,7 @@
       "details",
       "div",
       "em",
+      "figure",
       "footer",
       "g",
       "h1",
@@ -55,6 +58,7 @@
       "time",
       "title",
       "tr",
+      "u",
       "ul"
     ],
     "classes": [
@@ -506,6 +510,7 @@
       "transition-transform",
       "uppercase",
       "w-10",
+      "w-100",
       "w-24",
       "w-3.5",
       "w-4",
@@ -530,7 +535,10 @@
       "docs",
       "docs-navigation",
       "evaluate-extrapolation-ability-on-t_g-delta-and-v_c",
+      "evaluation",
       "example",
+      "experiment",
+      "experiment-setup",
       "experimental-setup",
       "extra-links",
       "feature-requests",
@@ -544,6 +552,7 @@
       "left-sidebar",
       "main-question",
       "menu",
+      "method",
       "moon",
       "nav-menu",
       "nav-toggle",
@@ -593,7 +602,8 @@
       "top",
       "usage",
       "warnings",
-      "why-it-matters"
+      "why-it-matters",
+      "why-it-mattersluation-scores-for-each-type"
     ]
   }
 }

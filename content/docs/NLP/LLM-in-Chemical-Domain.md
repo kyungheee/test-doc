@@ -32,7 +32,7 @@ We collect **917 Epoxy Resin Data points**  with lab experiments measuring [glas
 
 
 
-### Experimental Setup
+### Experiment Setup
 
 To evaluate the **extrapolation ability of LLM([*gpt-4-turbo*](https://arxiv.org/abs/2303.08774))**, we construct the following four regression tasks.
 
@@ -66,6 +66,8 @@ You can check the results in the Result section below
 
 
 ## Result
+
+**Table 1: MAE results for Test (1), averaged over 5 trials.** 
 
 <table style="text-align:center; margin:auto;">
   <thead>
@@ -121,7 +123,7 @@ You can check the results in the Result section below
   </tbody>
 </table>
 
-**Table 1: MAE results for Test (1), averaged over 5 trials.**   
+  
 
 Our LLM model outperformed the baseline regression model on $v_c$, but failed to do so on $\delta$. For $T_g$, the performance depends on $B_i$. Additionally, our model shows lower volatility (5.62 to 7.32) compared to the baseline (4.20 to 9.79).
 
@@ -138,6 +140,9 @@ Our LLM model outperformed the baseline regression model on $v_c$, but failed to
   <strong>lower $T_g$</strong> due to increased flexibility and reduced crosslink density. (...)
 </blockquote>
 
+<br>
+
+**Table 2: MAE results for Test (2), averaged over 5 trials.**
 
 <table border="1" style="text-align: center; border-collapse: collapse;">
   <thead>
@@ -158,7 +163,7 @@ Our LLM model outperformed the baseline regression model on $v_c$, but failed to
   </tbody>
 </table>
 
-**Table 2: MAE results for Test (2), averaged over 5 trials.**   
+   
 
 
 
